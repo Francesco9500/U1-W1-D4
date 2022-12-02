@@ -1,18 +1,27 @@
-body img {
-  background-image: url("sfondo.png");
+body {
+  background-image: url("../img/sfondo.png");
+  padding: 20px;
+  font-family: poppins;
 }
 
 header {
-  width: 50%;
-  margin: auto;
+  background-color: #026c88;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+h1 {
+}
+.logo {
+  width: 80%;
+}
+nav.a {
 }
 
 main {
-  width: 50%;
-  margin: auto;
+  background-color: white;
+  padding: 20px;
 }
-
-/* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
 
