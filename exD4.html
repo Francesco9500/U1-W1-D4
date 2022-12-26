@@ -4,53 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/font-awesome.css" />
-    <title>Eicode</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/font-awesome.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Epicode page(mobile)</title>
   </head>
   <body>
     <header>
-      <img src="./img/logo.svg" alt="logo epicode" />
-
+      <img class="logo" src="./assets/img/logo.svg" alt="logo epicode" />
       <h1>EPICODE-IL BLOG DEI DEVELOPERS</h1>
       <nav>
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ARTICOLI</a></li>
-          <li><a href="#">LAVORA CON NOI</a></li>
-        </ul>
+        <a href="#">HOME</a><br />
+        <a href="#">ARTICOLI</a><br />
+        <a href="#">LAVORA CON NOI</a><br />
       </nav>
     </header>
     <main>
-      <h2>Come creare un template per i post</h2>
-      div class
-      <p>di Mario Rossi-pubblicato il 25-10-2020</p>
+      <h2>Come creare un<br />template per i post</h2>
+      <h4>di Mario Rossi- pubblicato il 25-<br />10-2020</h4>
       <p>
-        La prima cosa da fare è suddividere in blocchi logici la pagina , identificando le
-        <strong>parti comuni</strong> da applicare a tutte le pagine
+        La prima cosa da fare è suddividere<br />in blocchi logici la pagina,<br />identificando le
+        <strong>parti comuni</strong> da<br />applicare a tutte le pagine
       </p>
-      <p>Le varie aree saranno quindi suddivise in:</p>
+      <p>Le varie aree saranno quindi<br />suddivise in:</p>
       <ul>
-        <li>Contenuti di intestazione del tag header</li>
-        <li>Contenuti centrali variabili del tag main</li>
-        <li>Contenuti di fine pagina comuni, da inserire nel tag footer</li>
+        <li>Contenuti di intestazione del tag<br /><span>&lt;header&gt;</span></li>
+        <li>Contenuti centrali variabili del<br />tag <span>&lt;main&gt;</span> (corpo principale)</li>
+        <li>Contenuti di fine pagina comuni,<br />da inserire nel tag <span>&lt;footer&gt;</span></li>
       </ul>
       <p>
-        Formattazione del codice<br />Il testo dell'articolo dovrà essere formattato per idemtificare tutte le parti da
-        <strong>selezionare con i CSS</strong>. Perciò i passi saranno:
+        Formattazione del codice<br />Il testo dell'articolo dovrà essere<br />formattato per identificare tutte le<br />parti
+        da <strong>selezionare con i CSS</strong> . Perciò i<br />passi saranno:
       </p>
       <ol>
-        <li>Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato</li>
-        <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+        <li>Progettare su carta il markup<br />finale, assegnando ad ogni<br />specifico testo il tag appropriato</li>
+        <li>Scrivere l'HTML dei tag esterni a quelli interni e dall'alto verso il basso</li>
         <li>Applicare gli stili CSS</li>
       </ol>
-      <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale.</p>
-      <h4>Diffusione dei CSS</h4>
+      <p>
+        L'applicazione dei stili CSS è cresciuta<br />negli anni fino a raggiungere la<br />diffusione pressochè totale
+      </p>
+      <h3>Diffusione dei CSS</h3>
       <table>
         <tr>
           <th>Anno</th>
-          <th>% utilizzo</th>
+          <th>% di utilizzo</th>
           <th>Supporto Browsers</th>
         </tr>
         <tr>
@@ -79,9 +77,11 @@
           <td>76%</td>
         </tr>
       </table>
+      <hr />
       <p>
-        Un test di validazione potrà essere fatto tramite il <a href="#">tool online</a> dedicato allo scopo. Una volta
-        ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:
+        Un test di validazione potrà essere<br />fatto tramite il <a href="#">tool online</a> dedicato<br />allo scopo .
+        Una volta ottimizzato il<br />tutto, avremo raggiunto il nostro<br />obiettivo ed essere stati dei veri<br />developers
+        come loro:
       </p>
       <iframe
         width="560"
@@ -92,10 +92,36 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
-      <form action=""></form>
-      <fieldset>
-        <label for=""></label>
-      </fieldset>
+      <div class="news">
+        <h3>NOVITÀ</h3>
+        <p>Vuoi rimanere aggiornato su altre<br />novità del blog? Iscriviti alla<br />nostra newsletter:</p>
+        <input type="email" placeholder="Inserisci l'email" />
+        <button>Iscriviti!</button>
+      </div>
+      <h2 class="articoli">ARTICOLI CORRELATI</h2>
+
+      <div class="correlati">
+        <a href="#">Validare il codice HTML</a>
+        <h5>Categoria: develop</h5>
+        <p>Data: 18-9-2020</p>
+      </div>
+      <div class="correlati">
+        <a href="#">Correggere la sintassi</a>
+        <h5>Categoria: develop</h5>
+        <p>Data: 16-9-2020</p>
+      </div>
+      <div class="correlati">
+        <a href="#">Meno Kb nella pagina</a>
+        <h5>Categoria: ottimizzazione</h5>
+        <p>Data: 30-9-2020</p>
+      </div>
     </main>
+    <footer>
+      <h4>Blog Epicode ©2021</h4>
+      <h5>
+        Testata online di Mario rossi, registrata con<br />prot.n.213/2018 - via luigi einaudi 2-Milano.<br />P.IVA
+        00112233. <a href="#">info@epicode.school</a>
+      </h5>
+    </footer>
   </body>
 </html>
